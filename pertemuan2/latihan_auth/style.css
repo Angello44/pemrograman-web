@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background: #B0C4DE;
+}
+
+h1{
+    text-align: center;
+    font-weight: 300;
+}
+
+.login1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tabelLogin{
+    width: 600px;
+    background:#FFFAFA;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+label {
+    font-size: 11pt;
+}
+
+.form_login {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol_login{
+    background: #9ACD32;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}

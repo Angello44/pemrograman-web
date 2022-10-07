@@ -11,7 +11,7 @@
         </div>
         <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../Toko Online Gio/gambar/gambar1.jpg" class="d-block img-fluid" alt="Gambar 1">
+            <img src="tugasmandiri/img/gambar1.jpg" class="d-block img-fluid" alt="Gambar 1">
         </div>
         <div class="carousel-item">
             <img src="../Toko Online Gio/gambar/gambar2.jpg" class="d-block img-fluid" alt="Gambar 2">
