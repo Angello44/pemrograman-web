@@ -19,10 +19,10 @@ if(isset($_SESSION['username'])){
         <p class="login1">Silahkan Login</p>
 
         <form action="index.php" method="POST">
-            <label for="username">Username</label>
+            <label for="username">Username atau email ..</label>
             <input name="username" class="form_login" type="text"/>
             <br/>
-            <label for="password">Password</label>
+            <label for="password">Password ..</label>
             <input name="password" class="form_login" type="password" />
             <br/>
             <button name="submit"  class="tombol_login" value="Login">Login</button>
