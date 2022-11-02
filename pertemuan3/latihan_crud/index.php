@@ -1,7 +1,8 @@
 <?php
 include_once("config.php");
-$query = " SELECT * FROM customers OREDER BY id DESC";
-$result = mysqli_query($coon_db, $query);
+$query = " SELECT * FROM customer ORDER BY id DESC";
+$result = mysqli_query($conn_db, $query);
+
 ?>
 
 <html>
@@ -38,7 +39,7 @@ $result = mysqli_query($coon_db, $query);
                         </td>
                     </tr>
                  <?php endwhile; ?>
-                <?php else :?>
+                <?php else : ?>
                     <tr>
                         <td colsplan="6" rowspan="1" headers="" align="center">Data Customer Tidak diTemukan!</td>
                     </tr>
