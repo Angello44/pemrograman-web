@@ -2,30 +2,32 @@
 <head>
     <title>Add Customer</title>
 </head>
-
+ 
 <body>
-    <a href="index.php">Go To Home</a>
+    <a href="index.php">Go to Home</a>
     <br/><br/>
-
+ 
     <form action="add_process.php" method="post" name="form1">
         <table width="25%" border="0">
-            <tr>
+            <tr> 
                 <td>Name</td>
-                <td input type="text" name="name"></td>
+                <td><input type="text" name="name"></td>
             </tr>
-            <tr>
+            <tr> 
                 <td>Email</td>
-                <td input type="text" name="email"></td>
+                <td><input type="text" name="email"></td>
             </tr>
-            <tr>
+            <tr> 
                 <td>Phone</td>
-                <td input type="text" name="phone"></td>
+                <td><input type="text" name="phone"></td>
             </tr>
-            <tr>
+            <tr> 
                 <td></td>
-                <td input type="Submit" name="Submit" value="Add"></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
             </tr>
         </table>
     </form>
+    
+    
 </body>
 </html>
